@@ -20,9 +20,11 @@ By default, the kit command cooldown for a player resets to zero if they die. Th
 
 Commands
 --------
-/kit <kitname>  Gives player the specified kit
-/kits           Shows a list of available kits
-/resetkits      Resets kit and kit command times for all players
+`/kit <kitname>`  Gives player the specified kit
+  
+`/kits`           Shows a list of available kits
+
+`/resetkits`      Resets kit and kit command times for all players
 
 
 Privileges
