@@ -1,6 +1,7 @@
 ctp_kits = {}
 kitstorage = minetest.get_mod_storage()
 local kit_cmd_cooldown = 2
+local kit_cmd_cooldown_on_die = 0
 kits = {}
 kits = {
   example_miner = {loadout = {"default:pick_diamond", "default:shovel_diamond", "default:sword_diamond ", }, cooldown = 8},
@@ -109,27 +110,7 @@ minetest.register_chatcommand("resetkits", {
 })
 
 minetest.register_on_dieplayer(function(player)
-	kitstorage:set_int(player:get_player_name()..":kitcmd", 0)
+  if kit_cmd_cooldown_on_die >= 0 then
+	kitstorage:set_int(player:get_player_name()..":kitcmd", kit_cmd_cooldown_on_die)
+end
 end)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
---
