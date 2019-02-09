@@ -2,7 +2,9 @@ Kits v1.0
 ==============
 Adds kits and kit commands to Minetest
 
-# Configuration
+
+Configuration
+-------------
 This mod provides two sample kits: example miner and example_blaster
 Follow the sample to add more kits. There is no limit to the number of kits that can be added.
 
@@ -15,12 +17,16 @@ The kit command cooldown time specifies, in minutes, how long a player must wait
 
 By default, the kit command cooldown for a player resets to zero if they die. This can be configured by setting a new value for `local kit_cmd_cooldown_on_die`. To dsable a reset of the kit command time on player death, set this value to -1.
 
-# Commands
+
+Commands
+--------
 /kit <kitname>  Gives player the specified kit
 /kits           Shows a list of available kits
 /resetkits      Resets kit and kit command times for all players
 
-# Privalges
+
+Privalges
+---------
 Two privaleges are added by this mod.
 `kits` allows a player to use the /kit command
 `kitsadmin` allows admin to reset the kit temporary data for all players.
