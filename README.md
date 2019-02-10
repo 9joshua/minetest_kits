@@ -30,5 +30,7 @@ Commands
 Privileges
 ---------
 Two privileges are added by this mod.
+
 `kits` allows a player to use the /kit command
+
 `kitsadmin` allows admin to reset the kit temporary data for all players.
