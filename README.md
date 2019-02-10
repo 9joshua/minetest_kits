@@ -5,7 +5,7 @@ Adds kits and kit commands to Minetest
 
 Configuration
 -------------
-This mod provides two sample kits: example miner and example_blaster
+This mod provides two sample kits: example_miner and example_blaster
 Follow the sample to add more kits. There is no limit to the number of kits that can be added.
 
 There are several type of cooldowns for a particular kit and for the kit command...
