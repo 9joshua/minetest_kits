@@ -4,7 +4,7 @@ local kit_cmd_cooldown = 2
 local kit_command_reset_on_die = 1
 kits = {}
 kits = {
-  example_miner = {loadout = {"default:pick_diamond", "default:shovel_diamond", "default:sword_diamond ", }, cooldown = 8},
+  example_miner = {loadout = {"default:pick_diamond", "default:shovel_diamond", "default:sword_diamond ", "default:torch 99" }, cooldown = 8},
   example_blaster = {loadout = {"tnt:tnt 30", "tnt:gunpowder 30", "fire:flint_and_steel", }, cooldown = 4},
 }
 
